@@ -1,4 +1,3 @@
 # Whats For Dinner?
 
-Personal Dinner Decider
-
+Personal Dinner Decider.

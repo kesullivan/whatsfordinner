@@ -220,15 +220,18 @@ Future<void> _dialogBuilder(BuildContext context) async {
         title: const Text('Tonight for Dinner!'),
         content: Column(
           mainAxisSize: MainAxisSize.min,
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [ 
             Text(
               randomRecipe.name,
               style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 10),
             Text(randomRecipe.description),
-            Image.file(File(randomRecipe.image), width: 300, height: 300, fit: BoxFit.cover),
+            _checkIfImageExists(randomRecipe.image)
+                ? Image.file(File(randomRecipe.image), width: 300, height: 300, fit: BoxFit.cover)
+                : const Icon(Icons.fastfood),
           ],
         ),
         actions: <Widget>[
