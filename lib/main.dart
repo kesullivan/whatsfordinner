@@ -131,10 +131,6 @@ class DinnerTonight extends StatelessWidget{
   static const TextStyle optionStyle = TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
   static const Text buttonText = Text("Get Dinner", style: optionStyle);
 
-  void _onPressed() {
-    return;
-  }
-
   @override
   Widget build(BuildContext context) {
     return TextButton(
@@ -241,7 +237,7 @@ Future<void> _dialogBuilder(BuildContext context) async {
             ),
             child: const Text('not tonight thank you though'),
             onPressed: () {
-              Navigator.of(dialogContext).pop();
+              _declineDinner(dialogContext);
             },
           ),
           TextButton(
@@ -250,7 +246,7 @@ Future<void> _dialogBuilder(BuildContext context) async {
             ),
             child: const Text('YES'),
             onPressed: () {
-              Navigator.of(dialogContext).pop();
+              _acceptDinner(dialogContext, randomRecipe);
             },
           ),
         ],
@@ -258,6 +254,15 @@ Future<void> _dialogBuilder(BuildContext context) async {
       );
     },
   );
+}
+
+void _acceptDinner(BuildContext dialogContext, Recipe recipe) {
+  Navigator.of(dialogContext).pop();
+  Navigator.push(dialogContext, MaterialPageRoute(builder: (dialogContext) => RecipePage(recipe: recipe)));
+}
+
+void _declineDinner(BuildContext dialogContext) {
+  return Navigator.of(dialogContext).pop();
 }
 
 
@@ -305,11 +310,27 @@ class RecipesList extends StatelessWidget {
             title: Text(recipe.name),
             subtitle: Text(recipe.description),
             onTap: () {
-              // navigate to a detail screen
+              Navigator.push(context, MaterialPageRoute(builder: (context) => RecipePage(recipe: recipe)));
             },
           ),
         );
       },
+    );
+  }
+}
+
+class RecipePage extends StatelessWidget {
+  const RecipePage({super.key, required this.recipe});
+
+  final Recipe recipe;
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: Text(recipe.name)),
+      body: Center(
+        child: Text(recipe.description),
+      ),
     );
   }
 }
