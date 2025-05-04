@@ -1,0 +1,358 @@
+{
+    "recipes": [
+        {
+            "name": "Grilled Cheese",
+            "description": "Grilled Cheese and Ramen Noodles",
+            "ingredients": [
+                {
+                    "name": "Bread",
+                    "quantity": "2",
+                    "unit": "slices"
+                },
+                {
+                    "name": "Cheese",
+                    "quantity": "2",
+                    "unit": "slices"
+                },
+                {
+                    "name": "Butter",
+                    "quantity": "2",
+                    "unit": "Tbsp"
+                },
+                {
+                    "name": "Ramen Noodles",
+                    "quantity": "1",
+                    "unit": "pack"
+                }
+            ],
+            "image": "images/grilled-cheese.jpg"
+        },
+        {
+            "name": "Tomato Soup",
+            "description": "A warm, comforting soup made from fresh tomatoes, onions, garlic, and butter—perfect with grilled cheese.",
+            "ingredients": [
+                {
+                    "name": "Tomatoes",
+                    "quantity": "4",
+                    "unit": "cups"
+                },
+                {
+                    "name": "Onion",
+                    "quantity": "1",
+                    "unit": "whole"
+                },
+                {
+                    "name": "Garlic",
+                    "quantity": "2",
+                    "unit": "cloves"
+                },
+                {
+                    "name": "Butter",
+                    "quantity": "1",
+                    "unit": "tbs"
+                },
+                {
+                    "name": "Salt",
+                    "quantity": "0.5",
+                    "unit": "tsp"
+                }
+            ],
+            "image": "images/tomato-soup.jpg"
+        },
+        {
+            "name": "Chicken Stir Fry",
+            "description": "Quick and easy stir-fried chicken with vegetables and soy sauce.",
+            "ingredients": [
+                {
+                    "name": "Chicken Breast",
+                    "quantity": "1",
+                    "unit": "lb"
+                },
+                {
+                    "name": "Bell Pepper",
+                    "quantity": "1",
+                    "unit": "whole"
+                },
+                {
+                    "name": "Soy Sauce",
+                    "quantity": "3",
+                    "unit": "tbsp"
+                },
+                {
+                    "name": "Garlic",
+                    "quantity": "2",
+                    "unit": "cloves"
+                },
+                {
+                    "name": "Olive Oil",
+                    "quantity": "2",
+                    "unit": "tbsp"
+                }
+            ],
+            "image": "images/chicken_stir_fry.jpg"
+        },
+        {
+            "name": "Spaghetti Aglio e Olio",
+            "description": "Simple Italian pasta with garlic, olive oil, and a hint of chili flakes.",
+            "ingredients": [
+                {
+                    "name": "Spaghetti",
+                    "quantity": "8",
+                    "unit": "oz"
+                },
+                {
+                    "name": "Garlic",
+                    "quantity": "4",
+                    "unit": "cloves"
+                },
+                {
+                    "name": "Olive Oil",
+                    "quantity": "4",
+                    "unit": "tbsp"
+                },
+                {
+                    "name": "Chili Flakes",
+                    "quantity": "0.5",
+                    "unit": "tsp"
+                },
+                {
+                    "name": "Parsley",
+                    "quantity": "2",
+                    "unit": "tbsp"
+                }
+            ],
+            "image": "images/spaghetti_aglio_e_olio.jpg"
+        },
+        {
+            "name": "Veggie Quesadilla",
+            "description": "Crispy tortillas filled with cheese and a variety of sautéed vegetables.",
+            "ingredients": [
+                {
+                    "name": "Tortillas",
+                    "quantity": "2",
+                    "unit": "whole"
+                },
+                {
+                    "name": "Cheddar Cheese",
+                    "quantity": "1",
+                    "unit": "cup"
+                },
+                {
+                    "name": "Bell Pepper",
+                    "quantity": "1",
+                    "unit": "whole"
+                },
+                {
+                    "name": "Mushrooms",
+                    "quantity": "1",
+                    "unit": "cup"
+                },
+                {
+                    "name": "Onion",
+                    "quantity": "0.5",
+                    "unit": "whole"
+                }
+            ],
+            "image": "images/veggie_quesadilla.jpg"
+        },
+        {
+            "name": "Shrimp Tacos",
+            "description": "Spicy shrimp tacos topped with fresh cabbage slaw and creamy sauce.",
+            "ingredients": [
+                {
+                    "name": "Shrimp",
+                    "quantity": "1",
+                    "unit": "lb"
+                },
+                {
+                    "name": "Tortillas",
+                    "quantity": "6",
+                    "unit": "small"
+                },
+                {
+                    "name": "Cabbage",
+                    "quantity": "2",
+                    "unit": "cups"
+                },
+                {
+                    "name": "Sour Cream",
+                    "quantity": "0.5",
+                    "unit": "cup"
+                },
+                {
+                    "name": "Hot Sauce",
+                    "quantity": "2",
+                    "unit": "tbsp"
+                }
+            ],
+            "image": "images/shrimp_tacos.jpg"
+        },
+        {
+            "name": "Breakfast Burrito",
+            "description": "Eggs, cheese, and your favorite breakfast meats wrapped in a soft tortilla.",
+            "ingredients": [
+                {
+                    "name": "Eggs",
+                    "quantity": "3",
+                    "unit": "whole"
+                },
+                {
+                    "name": "Tortilla",
+                    "quantity": "1",
+                    "unit": "large"
+                },
+                {
+                    "name": "Cheddar Cheese",
+                    "quantity": "0.5",
+                    "unit": "cup"
+                },
+                {
+                    "name": "Bacon",
+                    "quantity": "3",
+                    "unit": "slices"
+                },
+                {
+                    "name": "Potatoes",
+                    "quantity": "1",
+                    "unit": "cup"
+                }
+            ],
+            "image": "images/breakfast_burrito.jpg"
+        },
+        {
+            "name": "Shrimp Tacos again?",
+            "description": "Light and flavorful shrimp tacos with lime and cilantro.",
+            "ingredients": [
+                {
+                    "name": "Shrimp",
+                    "quantity": "1",
+                    "unit": "pound"
+                },
+                {
+                    "name": "Taco Shells",
+                    "quantity": "8",
+                    "unit": "pieces"
+                },
+                {
+                    "name": "Lime",
+                    "quantity": "1",
+                    "unit": "whole"
+                },
+                {
+                    "name": "Cilantro",
+                    "quantity": "1/4",
+                    "unit": "cup"
+                }
+            ],
+            "image": "images/shrimp_tacos.jpg"
+        },
+        {
+            "name": "Chili",
+            "description": "Hearty beef and bean chili perfect for cold nights.",
+            "ingredients": [
+                {
+                    "name": "Ground Beef",
+                    "quantity": "1",
+                    "unit": "pound"
+                },
+                {
+                    "name": "Kidney Beans",
+                    "quantity": "1",
+                    "unit": "can"
+                },
+                {
+                    "name": "Tomato Sauce",
+                    "quantity": "1",
+                    "unit": "can"
+                },
+                {
+                    "name": "Chili Powder",
+                    "quantity": "2",
+                    "unit": "tbsp"
+                }
+            ],
+            "image": "images/chili.jpg"
+        },
+        {
+            "name": "Egg Fried Rice",
+            "description": "Fast and easy fried rice with egg and veggies.",
+            "ingredients": [
+                {
+                    "name": "Rice",
+                    "quantity": "2",
+                    "unit": "cups"
+                },
+                {
+                    "name": "Eggs",
+                    "quantity": "2",
+                    "unit": "whole"
+                },
+                {
+                    "name": "Peas",
+                    "quantity": "1/2",
+                    "unit": "cup"
+                },
+                {
+                    "name": "Carrots",
+                    "quantity": "1/2",
+                    "unit": "cup"
+                }
+            ],
+            "image": "images/egg_fried_rice.jpg"
+        },
+        {
+            "name": "Avocado Toast",
+            "description": "Simple smashed avocado on toasted bread.",
+            "ingredients": [
+                {
+                    "name": "Bread",
+                    "quantity": "2",
+                    "unit": "slices"
+                },
+                {
+                    "name": "Avocado",
+                    "quantity": "1",
+                    "unit": "whole"
+                },
+                {
+                    "name": "Lemon Juice",
+                    "quantity": "1",
+                    "unit": "tbsp"
+                },
+                {
+                    "name": "Salt",
+                    "quantity": "1/4",
+                    "unit": "tsp"
+                }
+            ],
+            "image": "images/avocado_toast.jpg"
+        },
+        {
+            "name": "Mac and Cheese",
+            "description": "Creamy and cheesy macaroni dish.",
+            "ingredients": [
+                {
+                    "name": "Macaroni",
+                    "quantity": "2",
+                    "unit": "cups"
+                },
+                {
+                    "name": "Cheddar Cheese",
+                    "quantity": "2",
+                    "unit": "cups"
+                },
+                {
+                    "name": "Milk",
+                    "quantity": "1",
+                    "unit": "cup"
+                },
+                {
+                    "name": "Butter",
+                    "quantity": "2",
+                    "unit": "tbsp"
+                }
+            ],
+            "image": "images/mac_and_cheese.jpg"
+        }
+    ]
+}
